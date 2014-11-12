@@ -1,0 +1,54 @@
+#Headless browser option
+browser:
+  webkit: "phantomjs"
+  # gecko: "slimerjs"
+
+#If you want to have multiple snapping files, set the file name here
+snap_file: "javascript/snap.js"
+
+# Type the name of the directory that shots will be stored in
+directory:
+  - 'shots/decadecity'
+
+# Add only 2 domains, key will act as a label - no trailing '/'
+domains:
+  dev: "http://localhost:8000"
+  prod: "http://localhost:8001"
+
+#Type screen widths below
+screen_widths:
+  - 200
+  - 320
+  - 600
+  - 768
+  - 1024
+  - 1280
+  - 1600
+
+#Type page URL paths below, here are a couple of examples
+paths:
+  home: /
+  blog: /blog/
+  post_images: /blog/2013/10/04/hands-on-with-the-hudl
+  post_tables: /blog/2014/04/03/jquery-parse-times
+  post_code: /blog/2014/05/07/asynchronous-css-delivery-for-fault-tolerance
+  talks: /talks/
+  talk: /talks/building-for-the-device-agnostic-web
+  portfolo: /portfolio/
+  portfolo_item: /portfolio/tesco-bank
+  devices: /devices/
+  device: /devices/google-nexus-7
+
+# If you don't want to name the paths explicitly you can use a yaml
+# collection as follows, and names will be derived by replacing / with _
+#
+# paths:
+#  - /imghp
+#  - /maps
+
+#Amount of fuzz ImageMagick will use
+fuzz: '20%'
+
+#Set the number of days to keep the site spider file
+spider_days:
+  - 10
