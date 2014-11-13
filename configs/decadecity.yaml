@@ -38,6 +38,19 @@ paths:
   portfolo_item: /portfolio/tesco-bank
   devices: /devices/
   device: /devices/google-nexus-7
+  contact: /contact
+  #portfolo_tsb: /portfolio/tsb
+  #portfolo_eb: /portfolio/embarrassing-bodies
+  #portfolo_tb: /portfolio/tesco-bank
+  #portfolo_atm: /portfolio/tesco-atm
+  #portfolo_mb: /portfolio/missingbeats
+  #portfolo_bb: /portfolio/bidbroo
+  #portfolo_yg: /portfolio/yellowgrey-framework
+  #portfolo_ddvg: /portfolio/ddvg
+  #portfolo_twitchopper: /portfolio/twitchopper
+  #portfolo_yongsai: /portfolio/yongsai
+  #portfolo_lmob: /portfolio/le-mans-or-bust
+  #portfolo_air: /portfolio/36-15-air
 
 # If you don't want to name the paths explicitly you can use a yaml
 # collection as follows, and names will be derived by replacing / with _
